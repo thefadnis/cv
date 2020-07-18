@@ -166,3 +166,10 @@ a {
 	padding-bottom: 30px;
 }
 
+@media only screen and (max-width: 450px) {
+    .what-im-upto, .upper-class {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
