@@ -9,6 +9,7 @@ body{
 	font-family      : 'Rokkitt', cursive;
 	background-color : black;
 	color            : #EEE8AA;
+/*	overflow-x       : hidden;*/ 
 }
 
 img{
@@ -40,7 +41,6 @@ a {
 
 .my-desc{
 	display         : flex;
-	margin          : auto;
 	justify-content : center;
 	align-items     : center;
 	margin-top      : 200px;
@@ -82,7 +82,6 @@ a {
 	text-align  : left;
 	margin-left : 1rem;
 	margin-top  : 20px;
-	float       : left;
 }
 
 .part-three{
@@ -164,27 +163,4 @@ a {
 .contact div{
 	padding-bottom: 30px;
 }
-
-/* Not needed stuff maybe needed later*/
-/*.what-im-upto img{
-	height: 110px;
-	width : 110px;
-	display: flex;
-}
-*/
-
-/*.cisco-icon img{
-	height : 110px;
-	width  : 110px;
-	display: flex;
-	float  : left;
-}
-
-.vit-icon img{
-	height  : 110px;
-	width   : 110px;
-	display : flex;
-	float   : left;
-}
-*/
 
