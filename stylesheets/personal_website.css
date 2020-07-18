@@ -1,0 +1,190 @@
+ /*html elements css*/
+
+h1, h3, h4{
+	margin  : 0;
+	padding : 0;
+}
+
+body{
+	font-family      : 'Rokkitt', cursive;
+	background-color : black;
+	color            : #EEE8AA;
+}
+
+img{
+	height        : 135px;
+	width         : 150px;
+	float         : left;
+	border-radius : 15px;
+}
+
+a {
+	padding-left : 10px;
+	margin       : 5px;
+}
+/*class' css*/
+.row{
+	padding-bottom : 10px;
+}
+
+.part-one{
+	background 			 	: url("../images/sunset_2.jpg") no-repeat center center;
+  	-webkit-background-size : cover;
+  	-moz-background-size	: cover;
+  	-o-background-size		: cover;
+  	background-size         : cover;
+  	padding                 : 1px 0;
+  	height                  : 100vh;
+  	background-attachment: fixed;
+}
+
+.my-desc{
+	display         : flex;
+	margin          : auto;
+	justify-content : center;
+	align-items     : center;
+	margin-top      : 200px;
+	margin-left     : 140px;
+}
+
+.my-pic img{
+	display : flex;
+	height  : 130px;
+	width   : 130px
+}
+
+
+.intro-text{
+	color           : white;
+	justify-content : center;
+	margin-left     : 1rem;
+}
+
+.part-two{
+	display         : flex;
+	justify-content : center;
+	align-items     : center;
+	padding         : 30px 0 25px 0; 
+}
+
+.upper-class h1, h4{
+	margin: 0;
+	padding: 0;
+}
+
+.what-im-upto{
+	justify-content : center;
+	align-items     : center;
+	padding         : 0px;
+}
+
+.degree-text{
+	text-align  : left;
+	margin-left : 1rem;
+	margin-top  : 20px;
+	float       : left;
+}
+
+.part-three{
+	display     	: flex;
+	justify-content : center;
+	align-items     : center; 
+	padding      	: 10px 0 25px 0;
+}
+
+.cisco-icon{
+	padding-bottom: 20px;
+}
+
+.cisco-icon img {
+	height: 120px;
+}
+
+.what-ive-done{
+	align-items     : center;
+	justify-content : center;
+	margin          : 20px 0 50px 0;
+}
+
+.what-ive-done-text{
+	text-align  : left;
+	margin-left : 1rem;
+	margin-top  : 20px;
+	float       : left; 
+}
+
+.projects{
+	justify-content : center;
+	align-items     : center;
+}
+.project-title{
+	color : #D4AF37 ;
+}
+
+.subtitle{
+	color: #CFB53B;
+}
+
+.project-text{
+	padding-top : 90px;
+}
+
+.personal{
+	align-items     : center;
+	justify-content : center;
+	text-align      : center; 
+	padding-bottom  : 100px;
+}
+
+.personal h2{
+	padding-left: 10px;
+}
+
+.bungy{
+	height : 300px;
+	width  : 300px;
+}
+
+.adventure-1 {
+	padding-top : 10px;
+}
+
+.gamer {
+	text-align  : center;
+	align-items : center;
+}
+
+.contact {
+	justify-content : center;
+	align-items     : center;
+	text-align      : center;
+	padding-bottom  : 50px;
+}
+
+.contact div{
+	padding-bottom: 30px;
+}
+
+/* Not needed stuff maybe needed later*/
+/*.what-im-upto img{
+	height: 110px;
+	width : 110px;
+	display: flex;
+}
+*/
+
+/*.cisco-icon img{
+	height : 110px;
+	width  : 110px;
+	display: flex;
+	float  : left;
+}
+
+.vit-icon img{
+	height  : 110px;
+	width   : 110px;
+	display : flex;
+	float   : left;
+}
+*/
+
