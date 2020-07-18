@@ -9,7 +9,7 @@ body{
 	font-family      : 'Rokkitt', cursive;
 	background-color : black;
 	color            : #EEE8AA;
-/*	overflow-x       : hidden;*/ 
+	overflow-x       : hidden; 
 }
 
 img{
@@ -23,6 +23,7 @@ a {
 	padding-left : 10px;
 	margin       : 5px;
 }
+
 /*class' css*/
 .row{
 	padding-bottom : 10px;
@@ -36,7 +37,7 @@ a {
   	background-size         : cover;
   	padding                 : 1px 0;
   	height                  : 100vh;
-  	background-attachment: fixed;
+  	background-attachment   : fixed;
 }
 
 .my-desc{
@@ -68,14 +69,13 @@ a {
 }
 
 .upper-class h1, h4{
-	margin: 0;
-	padding: 0;
+	margin  : 0;
+	padding : 0;
 }
 
 .what-im-upto{
 	justify-content : center;
 	align-items     : center;
-	padding         : 0px;
 }
 
 .degree-text{
@@ -121,7 +121,8 @@ a {
 }
 
 .subtitle{
-	color: #CFB53B;
+	color         : #CFB53B;
+	margin-bottom : 10px;
 }
 
 .project-text{
@@ -151,6 +152,7 @@ a {
 .gamer {
 	text-align  : center;
 	align-items : center;
+	margin-top  : 40px;
 }
 
 .contact {
