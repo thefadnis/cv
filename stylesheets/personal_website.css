@@ -23,7 +23,6 @@ a {
 	padding-left : 10px;
 	margin       : 5px;
 }
-
 /*class' css*/
 .row{
 	padding-bottom : 10px;
@@ -76,6 +75,7 @@ a {
 .what-im-upto{
 	justify-content : center;
 	align-items     : center;
+	padding         : 0px;
 }
 
 .degree-text{
